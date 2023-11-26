@@ -1,0 +1,26 @@
+{
+   "name": "chatapplication",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+   },
+   "keywords": [],
+   "author": "KUSH,JIL,SAHIL,SUSHAN",
+   "license": "ISC",
+   "dependencies": {
+      "boxicons": "^2.1.4",
+      "express": "^4.17.1",
+      "moment-timezone": "^0.5.33",
+      "socket.io": "^4.1.1"
+   },
+   "engines": {
+      "node": ">=10.0.0"
+   },
+   "devDependencies": {
+      "nodemon": "^3.0.1"
+   }
+}
