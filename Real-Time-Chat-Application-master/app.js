@@ -18,7 +18,7 @@ const io = socketIo(server);
 // set static file
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'XeroxChat Bot';
+const botName = 'GrizzlesChat Bot';
 
 // run when client connects
 io.on('connection', (socket) => {
@@ -79,5 +79,5 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-   console.log(` Server is running on PORT: ${PORT}`);
+   console.log(` http://localhost:3000/`);
 });
